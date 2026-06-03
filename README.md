@@ -63,8 +63,7 @@ The comma-separated values were split into individual columns using spreadsheet 
 
 The normalized spreadsheet tables were imported into MySQL.
 
-Using UNION ALL, multiple director, country, and genre columns were converted into two-column relational tables. <a href="https://github.com/dolar-ken/netflix-data-analysis-dashboard/commit/80d01a[...]
-
+Using UNION ALL, multiple director, country, and genre columns were converted into two-column relational tables. <a href="https://github.com/dolar-ken/netflix-data-analysis-dashboard/commit/80d01a581997329c9f679c126e052427d986666e"> </a>
 Example structure:
 
 Genres Table
