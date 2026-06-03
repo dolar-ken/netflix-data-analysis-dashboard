@@ -10,7 +10,7 @@ GitHub – Project documentation and portfolio presentation
 
 ##📂 Dataset 
 
-Dataset: Netflix Titles Dataset
+Dataset: [Netflix Titles Dataset](https://github.com/dolar-ken/netflix-data-analysis-dashboard/blob/main/netflix_titles%20_original.csv)
 
 The dataset contains information about Netflix content, including:
 
