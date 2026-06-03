@@ -14,14 +14,15 @@ Dataset: [Netflix Titles Dataset](https://github.com/dolar-ken/netflix-data-anal
 
 The dataset contains information about Netflix content, including:
 
-Show ID
-Title
-Director(s)
-Cast
-Country
-Date Added
-Release Year
-Rating
-Duration
+Show ID, 
+Title, 
+Director(s), 
+Cast, 
+Country, 
+Date Added, 
+Release Year, 
+Rating, 
+Duration, 
 Genre (Listed In)
+and 
 Type (Movie or TV Show)
