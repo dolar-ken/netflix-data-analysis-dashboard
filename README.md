@@ -14,18 +14,17 @@ Dataset: [Netflix Titles Dataset](https://github.com/dolar-ken/netflix-data-anal
 
 The dataset contains information about Netflix content, including:
 
-Show ID, 
-Title, 
-Director(s), 
-Cast, 
-Country, 
-Date Added, 
-Release Year, 
-Rating, 
-Duration, 
-Genre (Listed In)
-and 
-Type (Movie or TV Show)
+- Show ID 
+- Title
+- Director(s) 
+- Cast
+- Country
+- Date Added
+- Release Year 
+- Rating
+- Duration 
+- Genre (Listed In)
+- Type (Movie or TV Show)
 
 ## 🔹 Data Cleaning Process
 ###  1. Missing Value Analysis
@@ -93,4 +92,63 @@ Most common Netflix genres
 #### Rating Analysis
 Most frequently assigned content ratings
 
-the query can be accessed here <a 
+the query can be accessed here <a href="https://github.com/dolar-ken/netflix-data-analysis-dashboard/blob/main/netflix%20films%20query.sql"> sql queries </a>
+
+## 📊 Tableau Dashboard
+
+An interactive dashboard was created in Tableau to visualize the findings.
+
+### Dashboard Components
+🌍 Content by Country Map
+
+Interactive world map showing Netflix content distribution by country.
+
+### 📈 Top 10 Directors
+
+Bar chart displaying directors with the highest number of titles on Netflix.
+
+### ⭐ Ratings Distribution
+
+Bar chart showing the most common content ratings.
+
+### 🔵 Movies vs TV Shows
+
+Circle chart comparing the number of Movies and TV Shows.
+
+### 🎬 Total Movies by Release Year
+
+Trend visualization showing how movie releases changed over time.
+
+## 🔍 Key Insights
+
+### Some notable findings include:
+
+Movies make up the majority of Netflix content.
+- A small number of directors contribute a significant number of titles.
+- Certain ratings dominate the Netflix catalog.
+- Content production has increased significantly over recent years.
+- Netflix content is concentrated in a few major production countries.
+
+  ## 🚀 Project Outcome
+
+### This project demonstrates practical skills in:
+
+- Data Cleaning
+- Data Normalization
+- SQL Querying
+- Relational Database Design
+- Exploratory Data Analysis
+- Data Visualization
+- Dashboard Development
+- GitHub Project Documentation
+
+The project follows an end-to-end data analysis workflow, transforming raw Netflix data into actionable insights through SQL and Tableau.
+
+## Dashboard Preview
+
+
+
+## Author
+
+Francis Orembe
+Aspiring Data Analyst | SQL | Excel | Tableau | Power BI
