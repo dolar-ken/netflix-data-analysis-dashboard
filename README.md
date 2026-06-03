@@ -48,9 +48,9 @@ Several columns contained multiple values separated by commas.
 Examples:
 
 Original Column
-Director
-Country
-Listed In (Genres)
+- Director
+- Country
+- Listed In (Genres)
 
 To improve data structure and querying efficiency, these columns were normalized.
 
@@ -68,10 +68,10 @@ Using UNION ALL, multiple director, country, and genre columns were converted in
 Example structure:
 
 Genres Table
-show_id	genre
-s1	    Drama
-s1	    Comedy
-s2    	Action
+- show_id	  genre
+- s1	       Drama
+- s1	       Comedy
+- s2    	   Action
 
 ## 🔹 Exploratory Data Analysis (EDA)
 
