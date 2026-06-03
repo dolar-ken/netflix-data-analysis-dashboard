@@ -42,7 +42,7 @@ Identify other incomplete records
 
 This helped determine the quality of the dataset before analysis.
 
-##🔹 Data Normalization
+## 🔹 Data Normalization
 
 Several columns contained multiple values separated by commas.
 
@@ -93,4 +93,4 @@ Most common Netflix genres
 #### Rating Analysis
 Most frequently assigned content ratings
 
-the query can be accessed here
+the query can be accessed here <a 
