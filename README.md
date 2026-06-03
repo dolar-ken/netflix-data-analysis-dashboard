@@ -1,6 +1,6 @@
 ## 📌 Project Overview
 
-This project explores the Netflix Titles dataset using a complete data analysis workflow. The objective was to clean and normalize the data, perform SQL analysis to uncover insights, and create interactive visualizations in Tableau.
+This project explores the Netflix Titles dataset using a complete data analysis workflow. The objective was to clean and normalize the data, perform SQL analysis to uncover insights, and create interactive visualizations.
 
 ## 🛠 Tools Used
 Microsoft Excel / Spreadsheets – Data cleaning and normalization
@@ -63,7 +63,7 @@ The comma-separated values were split into individual columns using spreadsheet 
 
 The normalized spreadsheet tables were imported into MySQL.
 
-Using UNION ALL, multiple director, country, and genre columns were converted into two-column relational tables. <a href="https://github.com/dolar-ken/netflix-data-analysis-dashboard/commit/80d01a581997329c9f679c126e052427d986666e"> normalized tables </a>
+Using UNION ALL, multiple director, country, and genre columns were converted into two-column relational tables. <a href="https://github.com/dolar-ken/netflix-data-analysis-dashboard/commit/80d01a[...]
 
 Example structure:
 
@@ -146,7 +146,7 @@ The project follows an end-to-end data analysis workflow, transforming raw Netfl
 
 ## Dashboard Preview
 
-
+![Netflix Dashboard](Netflix.png)
 
 ## Author
 
