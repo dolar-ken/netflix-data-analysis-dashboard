@@ -57,13 +57,13 @@ To improve data structure and querying efficiency, these columns were normalized
 Spreadsheet Transformation
 
 The comma-separated values were split into individual columns using spreadsheet functions.
-
+<a href="https://github.com/dolar-ken/netflix-data-analysis-dashboard/commit/ef9e86b19955e388aac21369b0ec3c9783d77d73"> normalised tables </a>
 
 ## MySQL Transformation
 
 The normalized spreadsheet tables were imported into MySQL.
 
-Using UNION ALL, multiple director, country, and genre columns were converted into two-column relational tables.
+Using UNION ALL, multiple director, country, and genre columns were converted into two-column relational tables. <a href="https://github.com/dolar-ken/netflix-data-analysis-dashboard/commit/80d01a581997329c9f679c126e052427d986666e"> normalized tables </a>
 
 Example structure:
 
