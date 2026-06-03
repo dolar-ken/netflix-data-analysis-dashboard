@@ -1,14 +1,14 @@
-##📌 Project Overview
+## 📌 Project Overview
 
 This project explores the Netflix Titles dataset using a complete data analysis workflow. The objective was to clean and normalize the data, perform SQL analysis to uncover insights, and create interactive visualizations in Tableau.
 
-##🛠 Tools Used
+## 🛠 Tools Used
 Microsoft Excel / Spreadsheets – Data cleaning and normalization
 MySQL – Data storage, transformation, and analysis
 Tableau Public – Dashboard creation and visualization
 GitHub – Project documentation and portfolio presentation
 
-##📂 Dataset 
+## 📂 Dataset 
 
 Dataset: [Netflix Titles Dataset](https://github.com/dolar-ken/netflix-data-analysis-dashboard/blob/main/netflix_titles%20_original.csv)
 
@@ -26,3 +26,71 @@ Duration,
 Genre (Listed In)
 and 
 Type (Movie or TV Show)
+
+## 🔹 Data Cleaning Process
+###  1. Missing Value Analysis
+
+The first step involved identifying missing values within the dataset.
+
+SQL queries were written to:
+
+Count blank directors
+Count blank countries
+Count blank ratings
+Count blank dates added
+Identify other incomplete records
+
+This helped determine the quality of the dataset before analysis.
+
+##🔹 Data Normalization
+
+Several columns contained multiple values separated by commas.
+
+Examples:
+
+Original Column
+Director
+Country
+Listed In (Genres)
+
+To improve data structure and querying efficiency, these columns were normalized.
+
+Spreadsheet Transformation
+
+The comma-separated values were split into individual columns using spreadsheet functions.
+
+
+## MySQL Transformation
+
+The normalized spreadsheet tables were imported into MySQL.
+
+Using UNION ALL, multiple director, country, and genre columns were converted into two-column relational tables.
+
+Example structure:
+
+Genres Table
+show_id	genre
+s1	    Drama
+s1	    Comedy
+s2    	Action
+
+## 🔹 Exploratory Data Analysis (EDA)
+
+SQL was used to answer business questions and generate insights.
+
+Some analyses included:
+
+#### Content Distribution
+Total Movies vs TV Shows
+#### Content released over time
+Content ratings distribution
+#### Director Analysis
+Top 10 directors by number of Netflix titles
+#### Geographic Analysis
+Content production by country
+#### Genre Analysis
+Most common Netflix genres
+#### Rating Analysis
+Most frequently assigned content ratings
+
+the query can be accessed here
